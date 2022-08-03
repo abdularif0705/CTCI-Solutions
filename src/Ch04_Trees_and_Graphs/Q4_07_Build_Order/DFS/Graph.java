@@ -1,12 +1,10 @@
 package Ch04_Trees_and_Graphs.Q4_07_Build_Order.DFS;
 
-import Ch04_Trees_and_Graphs.Q4_07_Build_Order.EdgeRemoval.Project;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Graph {
-	private ArrayList<Project> nodes = new ArrayList<Project>();
+	private ArrayList<Project> nodes = new ArrayList<>();
 	private HashMap<String, Project> map = new HashMap<String, Project>();
 	
 	public Project getOrCreateNode(String name) {

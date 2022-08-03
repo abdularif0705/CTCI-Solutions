@@ -1,6 +1,6 @@
 package Ch04_Trees_and_Graphs.Introduction;
 
-import Ch04_Trees_and_Graphs.Q4_11_Random_Node.TreeNode;
+import CtCILibrary.TreeNode;
 
 public class Traversals {
 	public static void visit(TreeNode node) {
